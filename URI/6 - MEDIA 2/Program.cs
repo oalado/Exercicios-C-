@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Runtime.Versioning;
 
 namespace uri1003 {
     class Program {
@@ -10,6 +11,7 @@ namespace uri1003 {
             A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            
 
             MEDIA = ((A * 2) + (B * 3) + (C * 5)) / 10;
 
